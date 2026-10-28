@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Registration Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>College Event Registration Portal</h1>
+        <p>Register for Upcoming College Events</p>
+    </header>
+
+    <section>
+        <h2>Upcoming Events</h2>
+
+        <div class="event">
+            <h3>Technical Fest</h3>
+            <p>Participate in technical activities.</p>
+        </div>
+
+        <div class="event">
+            <h3>Cultural Day</h3>
+            <p>Participate in cultural programmes.</p>
+        </div>
+
+        <div class="event">
+            <h3>Sports Meet</h3>
+            <p>Participate in sports competitions.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Event Registration Form</h2>
+
+        <form id="registrationForm">
+
+            <input type="text" id="name"
+                placeholder="Student Name" required>
+
+            <input type="text" id="department"
+                placeholder="Department" required>
+
+            <input type="email" id="email"
+                placeholder="Email Address" required>
+
+            <select id="event" required>
+                <option value="">Select an Event</option>
+                <option>Technical Fest</option>
+                <option>Cultural Day</option>
+                <option>Sports Meet</option>
+            </select>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+      </html>
+      
